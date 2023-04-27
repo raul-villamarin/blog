@@ -8,7 +8,7 @@ describe Customer do
     it 'returns the sum of two numbers' do
       customer = Customer.new
       result = customer.myFunction(2, 3)
-      expect(result).to eq(6)
+      expect(result).to eq(5)
     end
   end
 end
